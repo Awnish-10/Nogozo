@@ -25,6 +25,7 @@ const Wrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+
 	* {
 		text-align: start;
 	}
@@ -48,4 +49,10 @@ const ImgContainer = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	@media (max-width: 786px) {
+		width: 250px;
+	}
+	@media (max-width: 680px) {
+		width: 200px;
+	}
 `;
